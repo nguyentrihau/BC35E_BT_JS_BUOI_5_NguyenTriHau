@@ -46,7 +46,7 @@ if(tongDiem >= diemChuan && d1>0 && d2>0 && d3>0){
     KetQua += "Bạn đã rớt.Tổng điểm bằng: "+tongDiem;
 }else if(tongDiem > diemChuan && d1==0 && d2==0 && d3==0){
     KetQua +="Bạn đã rớt. Do có điểm nhỏ hơn hoặc bằng 0";
-}else{KetQua = "xin vui lòng nhập đúng"};
+}else{KetQua = "Bạn đã rớt. Do có điểm nhỏ hơn hoặc bằng 0"};
 document.getElementById("showInfoKQ").innerHTML = KetQua;
 };
 
